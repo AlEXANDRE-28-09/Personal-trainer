@@ -1,0 +1,152 @@
+ 
+body{ 
+    width: 950px;
+    margin: auto;
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.main {
+    background:#816f6f15;
+    margin-top: 0px;
+}
+.texto {
+    margin-left: 20px;
+}
+.foto {
+    width: 100%;
+}
+.container {
+    display: flex;
+    margin-left: 0px;
+}
+.texto1 {
+    margin-top: 10px;
+  margin-left: 40px; 
+}
+.imc {
+    margin-top: -100px;
+    margin-left: 30px;
+}
+.container1 {
+margin-top: 10%;
+margin-left: 30%;
+}
+.calculadora {
+    margin-top: -40px;
+    margin-right: 50px;
+}
+.calcular {
+    margin-top: 10px;
+    background-color: blue;
+    color: #fff;
+    width: 80px;
+    height: 20px;
+    border: 2px #fff solid;
+    border-radius: 15px;
+    cursor: pointer;
+} 
+.categorias{
+    position: relative;
+    margin: 10px;
+    color: #fff;
+}
+.destaque{
+    color: blue;
+}
+#resultado{
+    margin-top: -30px;
+    margin-left: 120px;
+    text-align: center;
+}
+.container2 {
+    display: flex;
+    margin-left: 0px;
+    margin-top: -80px;
+}
+.imc1 {
+    margin-top: 70px;
+    width: 100%;
+}
+.texto1 {
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.icones { /* Aqui é iniciado a configuração geral dos botões ou icones. */
+    position: fixed; /* Aqui é definido o position como fixed que torna o bloco inserido flutuante com orientação na página geral. */
+    bottom: 3%; /* Para deixar os botões na parte inferior da página é usado o bottom com um valor pequeno, no caso 2%. */
+    left: 29%; /* Para centralizar os botões no meio da página é usado o left com 50%. */
+    padding: 1%; /* Aqui é inserido um pequeno espaço dentro do bloco.  */
+    z-index: 10000000; /* O z-index é usado para uma ordenação do estilo, por isso aqui é usado um valor alto, para ficar por cima dos outros. */
+}
+.icones img:hover { /* Aqui é definido o efeito quando o mouse passa por cima da imagem */
+    filter: invert(100%);  /* Foi usado o filter: invert para colocar as cores opostas das imagens.  */
+}
+
+.youtube {
+    position: fixed;
+    bottom: 3%;
+    left: 36%;
+    padding: 1%;
+    z-index: 10000000;
+}
+.youtube img:hover {
+    filter: invert(100%);
+}
+.facebook {
+    position: fixed;
+    bottom: 3%;
+    left: 50%;
+    padding: 1%;
+    z-index: 10000000;
+}
+.facebook img:hover {
+    filter: invert(100%);
+}
+.instagran {
+    position: fixed;
+    bottom: 3%;
+    left: 43%;
+    padding: 1%;
+    z-index: 10000000;
+}
+.instagran img:hover { 
+    filter: invert(100%);
+}  
+
+.whatsap { 
+    position: fixed;
+    bottom: 3%;
+    left: 71%;
+    padding: 1%; 
+    z-index: 10000000;
+}
+.whatsap img:hover { 
+    filter: invert(100%);
+}
+.telegram { 
+    position: fixed;
+    bottom: 3%;
+    left: 57%;
+    padding: 1%; 
+    z-index: 10000000;
+    
+}
+.telegram img:hover { 
+    filter: invert(100%);
+}  
+
+.mail { 
+    position: fixed;
+    bottom: 3%;
+    left: 64%;
+    padding: 1%; 
+    z-index: 10000000;
+}
+.mail img:hover { 
+    filter: invert(100%);
+} 
