@@ -17,19 +17,12 @@ body{
     margin-left: 20px;
 }
 .foto {
-    width: 100%;
+    width: 50%;
 }
 .container {
     display: flex;
     margin-left: 0px;
-}
-.cref {
-    width: 100%;
-}
-.container {
-    display: flex;
-    margin-right: 0px;
-}
+} 
 .texto1 {
     margin-top: 10px;
   margin-left: 40px; 
